@@ -22,5 +22,7 @@ app.get('/amazon',(req,res)=>{
 //listen at specific port and run an callback function in response
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
+  console.log("hi");
+  
 })
 
